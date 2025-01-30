@@ -1,0 +1,37 @@
+using System;
+
+namespace PATrilhasAtiv04
+
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("é assinante de um serviço de streaming?");
+			 string assinante = (Console.ReadLine());
+			
+			
+			Console.WriteLine("você ja assitiu TWD?");
+			string filme = (Console.ReadLine());
+			
+			if (assinante == "sim" || filme == "sim")
+			{
+				Console.WriteLine("Parabéns, agora você pode assistir a nova série!");
+			}
+			
+			else
+			{
+				Console.WriteLine("desculpe, mas você não pode assistir a nova série!");
+			
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
