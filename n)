@@ -1,0 +1,35 @@
+using System;
+
+namespace PATrilhasAtiv04
+
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("digite uma palavra");
+			string palavra= Convert.ToString (Console.ReadLine().ToLower());
+			 
+			
+			
+			
+			
+			if  (palavra != "")
+			{
+				Console.WriteLine("a palavra nao e vazia");
+
+			}
+			
+			else
+			{
+					Console.WriteLine("a palavra e vazia");
+			}
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
