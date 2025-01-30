@@ -1,0 +1,32 @@
+using System;
+
+namespace PATrilhasAtiv04
+
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("digite um numero inteiro");
+			int num1 = Convert.ToInt32 (Console.ReadLine().ToLower());
+			 
+			 
+			 
+			
+			if  ((num1%3==0 ) || (num1%5==0))
+			{
+				Console.WriteLine("O número é divisível por 3 ou por 5!");
+
+			}
+			else
+			{
+				Console.WriteLine("O número não é divisível por 3 ou por 5!");
+
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
